@@ -1,0 +1,14 @@
+PAI numero;
+PAI i;
+PAI fatorial;
+
+fatorial = 1;
+
+FALA COMIGO numero;
+
+SELOCO (i = 1; i <= numero; i = i + 1)
+CHAMA
+    fatorial = fatorial * i;
+NAO_TEM_PRA_ONDE_FUGIR
+
+SALVE fatorial;

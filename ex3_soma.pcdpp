@@ -1,0 +1,10 @@
+PAI a;
+PAI b;
+PAI resultado;
+
+FALA COMIGO a;
+FALA COMIGO b;
+
+resultado = a + b;
+
+SALVE resultado;
