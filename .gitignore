@@ -1,18 +1,8 @@
 # IDE files
 .vscode
 
-# Generated output files
-saida
-saida.cpp
-
-# Flex/Bison generated files
-lex.yy.c
-pcdpp.tab.c
-pcdpp.tab.h
-
-# Executables
-pcdpp
-programa_final
+# Build directory (contains all generated files)
+build/
 
 # Object files
 *.o

@@ -20,7 +20,7 @@ O comando principal é:
 ```bash
 make run FILE=<nome_do_aquivo>.pcdpp
 ```
-O parâmetro `FILE` especifica qual arquivo de código-fonte pcdpp você deseja executar. Se nenhum arquivo for especificado, ele tentará executar `exemplo.pcdpp` por padrão.
+O parâmetro `FILE` especifica qual arquivo de código-fonte pcdpp você deseja executar. Se nenhum arquivo for especificado, ele tentará executar `ex1_fatorial.pcdpp` por padrão.
 
 Para rodar os arquivos desejados utilizamos o comando
 
