@@ -147,13 +147,13 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    fprintf(output_file, "#include <iostream>\n\n");
-    fprintf(output_file, "#include <string>\n\n");
-    fprintf(output_file, "int main() {\n");
+    fprintf(output_file, "#include <iostream>\n");
+    fprintf(output_file, "#include <string>\n");
+    fprintf(output_file, "int main() { ");
 
     yyparse();
 
-    fprintf(output_file, "\nreturn 0;\n}\n");
+    fprintf(output_file, "return 0;}");
 
     fclose(yyin);
     fclose(output_file);

@@ -48,7 +48,7 @@ digito  [0-9]
 "/"                             { fprintf(output_file, " / "); return TK_DIV; }
 "%"                             { fprintf(output_file, " %% "); return TK_MOD; }
 "="                             { fprintf(output_file, " = "); return TK_ATRIB; }
-";"                             { fprintf(output_file, ";\n"); return TK_PV; }
+";"                             { fprintf(output_file, ";"); return TK_PV; }
 ":"                             { fprintf(output_file, ":"); return TK_DOIS_PONTOS; }
 ","                             { fprintf(output_file, ", "); return TK_VIRG; }
 "."                             { fprintf(output_file, "."); return TK_PONTO; }

@@ -18,15 +18,11 @@ O projeto utiliza um `Makefile` para automatizar todo o processo. Para compilar 
 
 O comando principal é:
 ```bash
-make run FILE=<nome_do_seu_arquivo.pcdpp>
+make run FILE=<nome_do_aquivo>.pcdpp
 ```
 O parâmetro `FILE` especifica qual arquivo de código-fonte pcdpp você deseja executar. Se nenhum arquivo for especificado, ele tentará executar `exemplo.pcdpp` por padrão.
 
 Para rodar os arquivos desejados utilizamos o comando
-
-```bash
-make run FILE=<nome_do_aquivo>.pcdpp
-```
 
 ## Exemplos
 
